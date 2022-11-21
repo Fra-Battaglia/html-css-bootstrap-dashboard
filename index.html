@@ -19,9 +19,9 @@
 				<div class="row d-flex justify-content-between align-items-center">
 					<div class="col-auto">
 						<!-- Mobile Logo -->
-						<img src="./img/mobile-logo.png" alt="logo" class="img-fluid d-block d-lg-none">
+						<img src="./img/mobile-logo.png" alt="logo" class="header-img-mobile img-fluid d-block d-lg-none">
 						<!-- Desktop Logo -->
-						<img src="./img/logo.svg" alt="logo" class="img-fluid height-logo d-none d-lg-block">
+						<img src="./img/logo.svg" alt="logo" class="header-img-desktop img-fluid d-none d-lg-block">
 					</div>
 					<div class="col">
 						<div class="search-bar d-flex align-items-center">
@@ -31,9 +31,9 @@
 					</div>
 					<div class="col-auto">
 						<ul class="d-flex header-menu">
-							<li><a href="#"><i class="fa-solid fa-list-ul"></i></a></li>
-							<li><a href="#"><i class="fa-solid fa-circle-question"></i></a></li>
-							<li><a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
+							<li class="d-none d-lg-block"><a href="#"><i class="fa-solid fa-list-ul"></i></a></li>
+							<li class="d-none d-lg-block"><a href="#"><i class="fa-solid fa-circle-question"></i></a></li>
+							<li class="d-none d-lg-block"><a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
 							<li><a href="#"><i class="fa-solid fa-bell" style="color: #F09536;" data-bs-toggle="dropdown" role="button" id="dropdown-bell-menu"></i></a>
 								<ul aria-labelledby="#dropdown-bell-menu" class="dropdown-menu">
 									<li><a href="#" class="dropdown-item">Profilo</a></li>
@@ -55,21 +55,40 @@
 	
 			<aside class="text-white px-3 d-flex flex-column justify-content-between">
 				<ul>
-					<li class="py-3"><a href="#"><i class="fa-solid fa-home pe-3"></i><span class="d-none d-lg-inline">Home</span></a></li>
-					<li class="py-3"><a href="#"><i class="fa-solid fa-chart-simple pe-3"></i><span class="d-none d-lg-inline">Stats</span></a></li>
-					<li class="py-3"><a href="#"><i class="fa-solid fa-signal pe-3"></i><span class="d-none d-lg-inline">Signals</span></a></li>
+					<li class="py-3"><a href="#"><i class="fa-solid fa-home p-0 pe-lg-3"></i><span class="d-none d-lg-inline">Home</span></a></li>
+					<li class="py-3"><a href="#"><i class="fa-solid fa-chart-simple p-0 pe-lg-3"></i><span class="d-none d-lg-inline">Stats</span></a></li>
+					<li class="py-3"><a href="#"><i class="fa-solid fa-signal p-0 pe-lg-3"></i><span class="d-none d-lg-inline">Signals</span></a></li>
 				</ul>
-				<div class="admin py-3"><a href="#"><i class="fa-solid fa-gear pe-3"></i><span class="d-none d-lg-inline">Admin</span></a></div>
+				<div class="admin py-3"><a href="#"><i class="fa-solid fa-gear p-0 pe-lg-3"></i><span class="d-none d-lg-inline">Admin</span></a></div>
 			</aside>
 	
 			<!-- Main -->
 	
 			<main>
 				<div class="container-fluid text-white top-bar-blue p-4">
-					<div class="row gy-3">
-						<div class="col-12 col-sm-4 col-lg-6 order-2 order-sm-0">First</div>
-						<div class="col-12 col-sm-4 col-lg-4 order-3 order-sm-0">Second</div>
-						<div class="col-12 col-sm-4 col-lg-2 order-1 order-sm-0">Third</div>
+					<div class="row">
+						<div class="col-12 col-sm-4 col-lg-6 order-2 order-sm-0">
+							<div class="pb-2">
+								<span class="fs-3 pe-2">Boolean</span><span class="app-tag d-inline-block">Piano blaze</span>
+							</div>
+							<div class="apps">
+								<span class="app-tag d-inline-block">3 app</span>
+								<i class="fa-solid fa-angles-right"></i>
+								<span class="app-tag d-none d-lg-inline-block">Boolean mobile app</span>
+								<span class="app-tag d-none d-lg-inline-block">Boolean web app</span>
+								<span class="app-tag d-none d-lg-inline-block">Boolean blog app</span>
+							</div>
+						</div>
+						<div class="col-12 col-sm-4 col-lg-4 order-3 order-sm-0">
+							<div>Studenti online negli ultimi 30 minuti</div>
+							<div class="fs-3">125</div>
+						</div>
+						<div class="col-12 col-sm-4 col-lg-2 order-1 order-sm-0">
+							<div class="d-flex align-items-center">
+								<div class="me-3">Nuovo studente</div>
+								<div class="plus fs-3 px-2"><i class="fa-solid fa-plus"></i></div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</main>

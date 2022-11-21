@@ -51,6 +51,10 @@ header ul {
 	color: #5A5858;
 }
 
+.header-img-mobile {
+	width: 50px;
+}
+
 /* Wrapper */
 
 .wrapper {
@@ -61,7 +65,7 @@ header ul {
 
 aside {
 	height: 100%;
-	width: 50px;
+	width: auto;
 	background-color: #0B1D32;
 	flex-shrink: 0;
 }
@@ -82,7 +86,22 @@ main {
 }
 
 .top-bar-blue {
-	background-color: #3379c9;
+	background-color: #3870E0;
+}
+
+.app-tag {
+	background-color: #2C5AB4;
+	border-radius: 1000000px;
+	padding: 0.25em 0.5em;
+}
+
+.apps > * {
+	margin-right: 0.5em;
+}
+
+.plus {
+	border: 1px solid #FFFFFF;
+	border-radius: 10px;
 }
 
 /* Desktop */
