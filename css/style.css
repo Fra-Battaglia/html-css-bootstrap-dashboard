@@ -105,6 +105,12 @@ main {
 	border-radius: 10px;
 }
 
+/* Offcanvas */
+
+#add-new-student {
+	width: 100%;
+}
+
 /* Classes List */
 
 .class-icon {
@@ -166,6 +172,10 @@ main {
 	}
 
 	th.classe {
+		width: 50%;
+	}
+
+	#add-new-student {
 		width: 50%;
 	}
 }
