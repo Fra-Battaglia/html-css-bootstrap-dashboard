@@ -83,6 +83,7 @@ aside.text-white a {
 main {
 	height: 100%;
 	width: 100%;
+	overflow-y: auto;
 }
 
 .top-bar-blue {
@@ -104,10 +105,61 @@ main {
 	border-radius: 10px;
 }
 
+/* Table */
+
+.classe-icon {
+	width: 2em;
+	height: 2em;
+	background-color: #E16E59;
+	color: #FFFFFF;
+	border-radius: 50%;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 2em;
+}
+
+.tag {
+	color: #FFFFFF;
+	font-size: 0.7em;
+	padding: 0.25em 0.5em;
+	border-radius: 5px;
+}
+
+.tag-done {
+	background-color: #408558;
+}
+
+.tag-process {
+	background-color: #F5C344;
+}
+
+.tag-failed {
+	background: #CB444A;
+}
+
+.actions {
+	word-spacing: 0.5em;
+}
+
+.actions i {
+	width: 2em;
+	height: 2em;
+	border: 1px solid #6E757C;
+	color: #6E757C;
+	border-radius: 8px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 2em;
+}
+
 /* Desktop */
 
 @media screen and (min-width: 992px) {
 	aside {
 		width: auto;
+	}
+
+	th.classe {
+		width: 50%;
 	}
 }
