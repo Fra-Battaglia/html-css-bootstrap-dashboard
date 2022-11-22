@@ -78,6 +78,14 @@ aside.text-white a {
 	color: #FFFFFF;
 }
 
+aside ul li:hover, .admin:hover {
+	background-color: #FFFFFF;
+}
+
+aside ul li:hover a, .admin:hover a {
+	color: #0B1D32;
+}
+
 /* Main */
 
 main {
@@ -100,9 +108,15 @@ main {
 	margin-right: 0.5em;
 }
 
-.plus {
-	border: 1px solid #FFFFFF;
+a#plus {
+	color: #FFFFFF;
+	border: 2px solid #FFFFFF;
 	border-radius: 10px;
+}
+
+a#plus:hover {
+	background-color: #FFFFFF;
+	color: #3870E0;
 }
 
 /* Offcanvas */
@@ -122,6 +136,10 @@ main {
 	text-align: center;
 	vertical-align: middle;
 	line-height: 2em;
+}
+
+tbody tr:hover {
+	background-color: #E5E5E5;
 }
 
 .tag {
@@ -156,6 +174,18 @@ main {
 	text-align: center;
 	vertical-align: middle;
 	line-height: 2em;
+}
+
+.actions i.fa-trash:hover {
+	color: #FFFFFF;
+	background-color: #CB444A;
+	border-color: #CB444A;
+}
+
+.actions i.fa-pen:hover {
+	color: #FFFFFF;
+	background-color: #3870E0;
+	border-color: #3870E0;
 }
 
 /* Active Users */
