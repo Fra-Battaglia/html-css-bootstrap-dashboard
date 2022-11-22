@@ -105,9 +105,9 @@ main {
 	border-radius: 10px;
 }
 
-/* Table */
+/* Classes List */
 
-.classe-icon {
+.class-icon {
 	width: 2em;
 	height: 2em;
 	background-color: #E16E59;
@@ -150,6 +150,12 @@ main {
 	text-align: center;
 	vertical-align: middle;
 	line-height: 2em;
+}
+
+/* Active Users */
+
+.active-users a.card-link {
+	text-decoration: underline;
 }
 
 /* Desktop */
