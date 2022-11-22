@@ -26,7 +26,7 @@
 					<div class="col">
 						<div class="search-bar d-flex align-items-center">
 							<i class="fa-solid fa-magnifying-glass search-icon"></i>
-							<input type="text" name="search" id="" class="w-100" placeholder="Prova a cercare: Lezioni di laravel">
+							<input type="text" name="search" id="#search" class="w-100" placeholder="Prova a cercare: Lezioni di laravel">
 						</div>
 					</div>
 					<div class="col-auto">
@@ -35,7 +35,7 @@
 							<li class="d-none d-lg-block"><a href="#"><i class="fa-solid fa-circle-question"></i></a></li>
 							<li class="d-none d-lg-block"><a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a></li>
 							<li><a href="#" data-bs-toggle="dropdown" role="button" id="dropdown-bell-menu" aria-expanded="false"><i class="fa-solid fa-bell" style="color: #F09536;"></i></a>
-								<ul aria-labelledby="#dropdown-bell-menu" class="dropdown-menu">
+								<ul class="dropdown-menu">
 									<li><a href="#" class="dropdown-item">Profilo</a></li>
 									<li><a href="#" class="dropdown-item">Fatturazione</a></li>
 									<li><a href="#" class="dropdown-item">Logout</a></li>
@@ -102,7 +102,7 @@
 												<button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
 											</div>
 										</div>
-										<form action="">
+										<form action="#">
 											<div class="row">
 												<div class="col-12 col-sm-6 my-2">
 													<label for="formFirstName" class="form-label">Nome</label>
@@ -251,7 +251,7 @@
 
 										<div class="accordion-item">
 											<h2 class="accordion-header" id="headingOne">
-												<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="trfalsearia-controls="collapseOne>
+												<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
 													Come aggiungere un nuovo studente?
 												</button>
 										  	</h2>
@@ -264,7 +264,7 @@
 										
 										<div class="accordion-item">
 											<h2 class="accordion-header" id="headingTwo">
-												<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="trfalsearia-controls="collapseTwo">
+												<button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 													Come posso accedere alle informazioni del mio account?
 												</button>
 										  	</h2>
@@ -300,16 +300,16 @@
 								<div class="card-body">
 									<ul class="list-group">
 										<li class="list-group-item">
-											<input type="checkbox" name="todo-list" class="form-check-input">
-											<label for="todo-list" class="form-check-label">Kickoff nuove classi</label>
+											<input type="checkbox" name="todo-list" class="form-check-input" id="new-classes-kickoff">
+											<label for="new-classes-kickoff" class="form-check-label">Kickoff nuove classi</label>
 										</li>
 										<li class="list-group-item">
-											<input type="checkbox" name="todo-list" class="form-check-input">
-											<label for="todo-list" class="form-check-label">Lezione su Bootstrap 5 in classe #75</label>
+											<input type="checkbox" name="todo-list" class="form-check-input" id="class-75-bootstrap-5-lesson">
+											<label for="class-75-bootstrap-5-lesson" class="form-check-label">Lezione su Bootstrap 5 in classe #75</label>
 										</li>
 										<li class="list-group-item">
-											<input type="checkbox" name="todo-list" class="form-check-input">
-											<label for="todo-list" class="form-check-label">Controllare username github studenti</label>
+											<input type="checkbox" name="todo-list" class="form-check-input" id="github-usernames-check">
+											<label for="github-usernames-check" class="form-check-label">Controllare username github studenti</label>
 										</li>
 									</ul>
 								</div>
